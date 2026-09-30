@@ -16,7 +16,7 @@ miles-rules/
 │   ├── Domestic*.list / ASN.China.list  # 国内直连（含 GetSomeFries 的 ASN 数据）
 │   └── Proxy.list           # 兜底代理规则
 ├── iptv/
-│   └── gather-verified.m3u  # 独立 IPTV 源（2026-09-30 逐条验证，41 条可用）
+│   └── tv-channels.m3u  # 独立电视源：央视 / 卫视 / 地方台（544 频道，2026-09-30 搬运）
 └── README.md
 ```
 
