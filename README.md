@@ -8,9 +8,17 @@
 miles-rules/
 ├── oixcloud-template.conf   # 完整 Surge 配置模板（已脱敏，不含真实节点凭据）
 ├── rules/
-│   └── AI.list              # 自维护 AI 应用分流规则（39 条）
+│   ├── AI.list              # 自维护 AI 应用分流规则（39 条，含 Muse / Apple Intelligence）
+│   ├── AdBlock.list         # 广告拦截（搬运自 dler-io/Rules 快照）
+│   ├── Special.list         # 特殊直连规则（搬运自 dler-io/Rules 快照）
+│   ├── Media/               # Netflix / Disney+ / YouTube / Spotify 等流媒体规则
+│   ├── Apple*.list / Telegram.list / Discord.list / Crypto.list 等  # 各应用规则
+│   ├── Domestic*.list / ASN.China.list  # 国内直连（含 GetSomeFries 的 ASN 数据）
+│   └── Proxy.list           # 兜底代理规则
 └── README.md
 ```
+
+> 说明：`rules/` 下除 `AI.list` 外均为 2026-09-30 从上游搬运的快照（dler-io/Rules 与 VirgilClyne/GetSomeFries）。上游会持续更新，需要刷新时告诉我，我重新拉取覆盖。
 
 ## 文件说明
 
