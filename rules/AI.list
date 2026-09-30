@@ -1,0 +1,64 @@
+# AI 应用分流规则（自维护）
+# 覆盖：Muse / ChatGPT / Gemini / Claude / Copilot / Grok / Perplexity / Poe / Mistral / Apple Intelligence
+# 用法：RULE-SET,https://cdn.jsdelivr.net/gh/你的用户名/miles-rules@main/rules/AI.list,"AI Suite",extended-matching
+# 注意：api.meta.ai 为社区反馈的 Muse 接口域名，未经官方确认
+# ---------- Muse（Meta AI） ----------
+DOMAIN-SUFFIX,muse.ai
+# api.meta.ai 为社区反馈的 Muse 接口域名，未经官方确认；如 Muse 异常可优先排查此条
+DOMAIN-SUFFIX,api.meta.ai
+
+# ---------- ChatGPT / OpenAI ----------
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+
+# ---------- Google Gemini ----------
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+
+# ---------- Claude / Anthropic ----------
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claudeusercontent.com
+
+# ---------- Microsoft Copilot ----------
+DOMAIN-SUFFIX,copilot.microsoft.com
+
+# ---------- xAI Grok ----------
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
+
+# ---------- Perplexity ----------
+DOMAIN-SUFFIX,perplexity.ai
+
+# ---------- Poe ----------
+DOMAIN-SUFFIX,poe.com
+
+# ---------- Mistral ----------
+DOMAIN-SUFFIX,mistral.ai
+
+# ---------- Apple Intelligence / Siri ----------
+# 参考社区维护规则（RocM301/Apple-Rule 与 CaoXiaoMann/XiaoMan 均已覆盖），走美国等支持区域节点
+DOMAIN-KEYWORD,siri
+DOMAIN,guzzoni.apple.com
+DOMAIN,mask-api.fe.apple-dns.net
+DOMAIN,mask-api.icloud.com
+DOMAIN,mask-t.apple-dns.net
+DOMAIN,mask.apple-dns.net
+DOMAIN-SUFFIX,api-siri-prod.apple.com
+DOMAIN-SUFFIX,apple-relay.akamaized.net
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+DOMAIN-SUFFIX,apple-relay.fastly-edge.com
+DOMAIN-SUFFIX,apple-relay.mask.apple-dns.net
+DOMAIN-SUFFIX,apps.mzstatic.com
+DOMAIN-SUFFIX,cp4.cloudflare.com
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN-SUFFIX,mask-h2.icloud.com
+DOMAIN-SUFFIX,mask.icloud.com
+DOMAIN-SUFFIX,smoot.apple.com
