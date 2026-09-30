@@ -1,0 +1,5 @@
+# > encoreTVB
+DOMAIN,content.jwplatform.com
+DOMAIN-SUFFIX,encoretvb.com
+DOMAIN,videos-f.jwpsrv.com
+USER-AGENT,encoreTVB*
