@@ -15,6 +15,8 @@ miles-rules/
 │   ├── Apple*.list / Telegram.list / Discord.list / Crypto.list 等  # 各应用规则
 │   ├── Domestic*.list / ASN.China.list  # 国内直连（含 GetSomeFries 的 ASN 数据）
 │   └── Proxy.list           # 兜底代理规则
+├── iptv/
+│   └── gather-verified.m3u  # 独立 IPTV 源（2026-09-30 逐条验证，41 条可用）
 └── README.md
 ```
 
